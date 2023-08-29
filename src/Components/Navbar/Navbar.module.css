@@ -1,6 +1,16 @@
 .container {
   display: flex;
-  width: 100vw;
-  height: 40px;
-  background-color: green;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.links {
+  display: flex;
+  margin: 20px;
 }
