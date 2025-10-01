@@ -1,10 +1,40 @@
+:root {
+  --nav: #8FF2E5;
+  --comp: #B0826F;
+  --arr: #F0875A;
+  --banjo: #6E9B95;
+  --guitar: #706763;
+  --contact: #354643;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  width: 100vw;
+  background-color: white;
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1.2rem 0;
+  color: var(--highlight);
+}
+
+img {
+  pointer-events: none;
 }
 
 code {

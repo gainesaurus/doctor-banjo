@@ -1,0 +1,26 @@
+.compEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.compTitle {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.pdfLink {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.audioLink {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.videoLink {
+  padding: 1rem;
+  border: 1px solid black;
+}
+

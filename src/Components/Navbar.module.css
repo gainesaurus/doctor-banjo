@@ -1,4 +1,5 @@
 .container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   height: 70px;
@@ -8,9 +9,18 @@
   padding: 0;
   position: sticky;
   top: 0;
+  background-color: var(--nav);
+  border-bottom: 2px solid black;
+  z-index: 10;
 }
 
 .links {
   display: flex;
   margin: 20px;
+  color: var(--contact);
+  text-decoration: none;
+}
+
+.links:hover{
+  text-decoration: underline;
 }
