@@ -1,10 +1,9 @@
 :root {
-  --nav: #8FF2E5;
-  --comp: #B0826F;
-  --arr: #F0875A;
-  --banjo: #6E9B95;
-  --guitar: #706763;
-  --contact: #354643;
+  --nav: #1b455a;
+  --comp: #706663;
+  --arr: #dd8a46;
+  --banjo: #f8f7f7;
+  --contact: #2d3847;
 }
 
 * {

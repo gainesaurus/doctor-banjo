@@ -4,7 +4,7 @@ import styles from './Guitar.module.css';
 const Guitar = () => {
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="guitar">
       <div>
         <p> The Guitar Doctor.</p>
       </div>      

@@ -11,10 +11,10 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
     <div className="App">
       <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/compositions' element={<Compositions />} />
           <Route path='/guitarcomp' element={<GuitarComp />} />
@@ -23,9 +23,16 @@ function App() {
           <Route path='/guitar' element={<Guitar />} />
           <Route path='/contact' element={<Contact />} />
           <Route path="*" element={<Navigate to="/home" replace />} />
-        </Routes>
+        </Routes> */}
+        <Home />
+        <Compositions />
+        <GuitarComp />
+        <Arrangements />
+        <Banjo />
+        <Guitar />
+        <Contact  />
       </div>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 

@@ -4,7 +4,7 @@ import styles from './GuitarComp.module.css';
 const GuitarComp = () => {
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="compositions">
       <div>
         <p> Guitar Compositions by the Doctor.</p>
       </div>      

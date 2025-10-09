@@ -4,7 +4,7 @@ import styles from './Compositions.module.css';
 const Compositions = () => {
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="compositions" >
       <p>Compositions by the Doctor.</p>
       <div className={styles.compEntry}>
         <div className={styles.compTitle}>Title</div>

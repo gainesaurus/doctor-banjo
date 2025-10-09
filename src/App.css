@@ -6,6 +6,7 @@
   /* position: relative; */
   min-height: 100vh;
   padding: 0 0 100px 0;
+  background-color: darkgrey;
 }
 
 a {
