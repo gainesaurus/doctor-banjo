@@ -1,0 +1,5 @@
+.container {
+  justify-content: space-around;
+  background-color: var(--contact);
+  color: var(--banjo);
+}

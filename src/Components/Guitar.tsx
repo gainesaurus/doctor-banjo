@@ -5,9 +5,10 @@ const Guitar = () => {
 
   return (
     <section className={styles.container} id="guitar">
-      <div>
-        <p> The Guitar Doctor.</p>
-      </div>      
+        <div>
+          <p> The Guitar Doctor.</p>
+        </div>
+        <img src='/assets/images/Boa.webp' className={styles.bgPic} alt='Guitar Page BG' />   
     </section>
   )
 }

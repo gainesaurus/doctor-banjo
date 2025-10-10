@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  min-height: 400px;
+  padding: 1rem;
+  background-color: var(--banjo);
+  box-shadow: 1px 1px 2px black;
+  margin: 0 0 1rem 0;
+}

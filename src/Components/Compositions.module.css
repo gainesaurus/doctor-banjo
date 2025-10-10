@@ -1,9 +1,17 @@
+.container {
+  justify-content: center;
+  background-color: var(--banjo);
+  flex-direction: column;
+}
+
 .compEntry {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
+  min-height: 300px;
   padding: 1rem;
+  background-color: rgb(237, 238, 224);
 }
 
 .compTitle {
