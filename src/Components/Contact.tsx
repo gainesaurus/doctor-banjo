@@ -5,9 +5,10 @@ const Contact = () => {
 
   return (
     <section className={styles.container} id="contact">
+      <img src='/assets/images/Boa.webp' className={styles.bgPic} alt='Contact Page BG' />   
       <div>
         <p> Contact the Doctor.</p>
-      </div>      
+      </div>     
     </section>
   )
 }
