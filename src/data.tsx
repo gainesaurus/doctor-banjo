@@ -1,6 +1,7 @@
-export const projects = [
+export const compositions = [
   {
     listTitle: "Compositions by The Doctor",
+    id: "compositions",
     samples: [
       {
         title: "Breakdowns",
@@ -90,5 +91,91 @@ export const projects = [
       },
 
     ]
+  },
+  {
+    listTitle: "Guitar Compositions",
+    id: "guitarcomp",
+    samples: [
+      {
+        title: "Bibayak Variations",
+        pdfLink: "/assets/guitarcomps/Bibayak/BibayakVariations",
+        audioLinks: [],
+        videoLink: "",
+      },
+      {
+        title: "Chupacabra",
+        pdfLink: "/assets/guitarcomps/Chupacabra/Chupacabra",
+        audioLinks: [
+          "/assets/guitarcomps/Chupacabra/Chupacabra.mp3"
+        ],
+        videoLink: "",
+      },
+      {
+        title: "Delilah",
+        pdfLink: "/assets/guitarcomps/Delilah/Delilah",
+        audioLinks: [
+          "/assets/guitarcomps/Delilah/Delilah.mp3"
+        ],
+        videoLink: "",
+      },
+      {
+        title: "Firelight",
+        pdfLink: "/assets/guitarcomps/Firelight/Firelight",
+        audioLinks: [],
+        videoLink: "",
+      },
+      {
+        title: "Flowing Through",
+        pdfLink: "/assets/guitarcomps/FlowingThrough/FlowingThrough",
+        audioLinks: [
+          "/assets/guitarcomps/FlowingThrough/FlowingThrough.mp3"
+        ],
+        videoLink: "",
+      },
+      {
+        title: "Meltwater",
+        pdfLink: "/assets/guitarcomps/Meltwater/Meltwater",
+        audioLinks: [
+          "/assets/guitarcomps/Meltwater/Meltwater.mp3"
+        ],
+        videoLink: "",
+      },
+      {
+        title: "Nusuth",
+        pdfLink: "/assets/guitarcomps/Nusuth/Nusuth",
+        audioLinks: [],
+        videoLink: "",
+      },
+      {
+        title: "Sonata for Guitar and Piano",
+        pdfLink: "/assets/guitarcomps/SonataGuitar/SonataGtrPno",
+        audioLinks: [],
+        videoLink: "",
+      },
+      {
+        title: "Sonata Homage to Scarlotti",
+        pdfLink: "/assets/guitarcomps/SonataHomage/Sonata2Gtr",
+        audioLinks: [],
+        videoLink: "",
+      },
+      {
+        title: "Three Sinfonias",
+        pdfLink: "/assets/guitarcomps/ThreeSinfonias/ThreeSinfonias",
+        audioLinks: [],
+        videoLink: "",
+      },
+      {
+        title: "Zephyr",
+        pdfLink: "/assets/guitarcomps/Zephyr/Zephyr",
+        audioLinks: [],
+        videoLink: "",
+      },
+    ]
+  },
+];
+
+export const arrangements = [
+  {
+
   }
 ];

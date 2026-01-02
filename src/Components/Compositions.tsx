@@ -1,15 +1,15 @@
 import styles from './Compositions.module.css';
-import { projects } from '../data';
+import { compositions } from '../data';
 
 const Compositions = () => {
 
   return (
-    <section className={styles.container} id="compositions" >
-     {projects.map(project =>
-        <section className={styles.list}>
-          <h3 className={styles.listTitle}>{project.listTitle}</h3>
-          {project.samples.map(sample => 
-            <div className={styles.compEntry}>
+    <section className={styles.container} >
+     {compositions.map(composition =>
+        <section className={styles.list} id={composition.id}>
+          <h3 className={styles.listTitle}>{composition.listTitle}</h3>
+          {composition.samples.map(sample => 
+            <div className={styles.compCard}>
               <h3 className={styles.compTitle}>{sample.title}</h3>
               <div className={styles.compMaterials}>
                 <object className={styles.pdfLink} data={`${sample.pdfLink}.pdf#page=3`} aria-label={`${sample.title} Composition`} role="document" />

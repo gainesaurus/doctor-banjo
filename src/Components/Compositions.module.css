@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-.compEntry {
+.compCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
