@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import styles from './Compositions.module.css';
 import { projects } from '../data';
 
@@ -13,7 +12,7 @@ const Compositions = () => {
             <div className={styles.compEntry}>
               <h3 className={styles.compTitle}>{sample.title}</h3>
               <div className={styles.compMaterials}>
-                <object className={styles.pdfLink} data={`${sample.pdfLink}.pdf#page=3`} />
+                <object className={styles.pdfLink} data={`${sample.pdfLink}.pdf#page=3`} aria-label={`${sample.title} Composition`} role="document" />
                 <div className={styles.audioList}>
                   {sample.audioLinks.map(audioLink =>
                     <audio controls className={styles.audioLink}>
