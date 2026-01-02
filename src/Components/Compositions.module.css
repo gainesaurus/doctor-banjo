@@ -2,6 +2,7 @@
   justify-content: center;
   background-color: var(--banjo);
   flex-direction: column;
+  width: 100%;
 }
 
 .list {
@@ -63,6 +64,7 @@
   box-shadow: 2px 2px 2px var(--arr);
   color: white;
   padding: 1rem;
+  margin: 0 0 1rem 0;
   border: 1px solid black;
   width: 25%;
 }
@@ -72,3 +74,11 @@
   width: 25%;
 }
 
+@media screen and (max-width: 700px) {
+  .compMaterials {
+    flex-direction: column;
+  }
+  .pdfLink {
+    width: 100%;
+  }
+}

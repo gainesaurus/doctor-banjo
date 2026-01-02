@@ -4,9 +4,10 @@ const Banjo = () => {
 
   return (
     <section className={styles.container} id="banjo">
+      <img src='/assets/images/Sharky 2.webp' className={styles.bgPic} alt='Homepage BG' />
       <div className={styles.main}>
-         <img src='/assets/images/Sharky 2.webp' className={styles.bgPic} alt='Homepage BG' />
-      </div>      
+        <h3> The Banjo Doctor.</h3>
+      </div> 
     </section>
   )
 }

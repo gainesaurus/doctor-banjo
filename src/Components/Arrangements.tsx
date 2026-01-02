@@ -5,7 +5,7 @@ const Arrangements = () => {
   return (
     <section className={styles.container} id="arrangements">
       <div>
-        <p> Arrangements by the Doctor.</p>
+        <h3> Arrangements by the Doctor.</h3>
       </div>      
     </section>
   )

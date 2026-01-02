@@ -20,11 +20,12 @@
 .linkContainer {
   display: flex;
   flex-direction: row;
+  max-width: 100%;
 }
 
 .links {
   display: flex;
-  margin: 20px;
+  margin: 1rem;
   color: var(--banjo);
   text-decoration: none;
 }
@@ -32,4 +33,13 @@
 .links:hover{
   text-decoration: underline;
   color: var(--arr);
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    width: 100%;
+  }
+  .linkContainer {
+    display: none;
+  }
 }

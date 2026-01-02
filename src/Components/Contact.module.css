@@ -1,7 +1,9 @@
 .container {
+  display: flex;
   background-color: var(--contact);
   color: var(--banjo);
   justify-content: space-around;
+  width: 100%;
 }
 
 .bgPic {
