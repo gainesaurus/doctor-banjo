@@ -176,6 +176,34 @@ export const compositions = [
 
 export const arrangements = [
   {
-
-  }
+    title: "Johann Sebastian Bach",
+    pdfLink: ["/assets/arrangements/AndanteBWV1003",],
+    audioLinks: [],
+    videoLink: "",
+  },
+  {
+    title: "Wolfgang Amadeus Mozart",
+    pdfLink: [
+      "/assets/arrangements/MozartK355",
+      "/assets/arrangements/SeraglioOverture",
+    ],
+    audioLinks: [],
+    videoLink: "",
+  },
+  {
+    title: "Chick Corea",
+    pdfLink: [
+      "/assets/arrangements/ChildrensSongs1",
+      "/assets/arrangements/ChildrensSongs2",
+      "/assets/arrangements/ChildrensSongs3",
+    ],
+    audioLinks: [],
+    videoLink: "",
+  },
+  {
+    title: "Henry Purcell",
+    pdfLink: ["/assets/arrangements/ANewGround",],
+    audioLinks: [],
+    videoLink: "",
+  },
 ];

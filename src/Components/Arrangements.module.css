@@ -1,6 +1,53 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: var(--banjo);
   width: 100%;
+}
+
+.title {
+  padding: 1rem;
+  margin-bottom: 0.2rem;
+  border: 1px solid black;
+  width: fit-content;
+  background-color: white;
+  box-shadow: 1px 1px 2px black;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.materials {
+  display: flex;
+  margin: 0 0 2rem 0;
+  flex-wrap: wrap;
+}
+
+.pdfLink {
+  border: 1px solid black;
+  width: calc(50% - 1rem);
+  min-height: 300px;
+  margin: 0.5rem;
+}
+
+.audioLink {
+  display: flex;
+  min-width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 2px var(--arr);
+  color: white;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  border: 1px solid black;
+  width: 25%;
+}
+
+@media screen and (max-width: 800px) {
+  .materials {
+    flex-direction: column;
+  }
+  .pdfLink {
+    width: 100%;
+  }
 }
