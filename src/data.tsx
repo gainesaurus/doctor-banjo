@@ -207,3 +207,41 @@ export const arrangements = [
     videoLink: "",
   },
 ];
+
+export const banjoSongs = [
+  {
+    title: "Agua E Vinho",
+    audioLink: "/assets/banjosongs/AguaEVinho.mp3",
+    videoLink: "",
+  },
+  {
+    title: "All I Ever Need Is You",
+    audioLink: "/assets/banjosongs/AllIEverNeedIsYou.mp3",
+    videoLink: "",
+  },
+  {
+    title: "Childrens Song 3",
+    audioLink: "/assets/banjosongs/ChildrensSong3.mp3",
+    videoLink: "",
+  },
+  {
+    title: "Froggy Went A Courtin",
+    audioLink: "/assets/banjosongs/FroggyWentACourtin.mp3",
+    videoLink: "",
+  },
+  {
+    title: "I'll Fly Away",
+    audioLink: "/assets/banjosongs/I'llFlyAway.mp3",
+    videoLink: "",
+  },
+  {
+    title: "Invention No.4",
+    audioLink: "/assets/banjosongs/InventionNo4.mp3",
+    videoLink: "",
+  },
+  {
+    title: "Stealin",
+    audioLink: "/assets/banjosongs/Stealin.mp3",
+    videoLink: "",
+  },
+]
