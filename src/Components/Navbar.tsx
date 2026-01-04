@@ -7,9 +7,9 @@ function Navbar() {
           <h2>Doctor Banjo</h2>
         </a>
         <div className={styles.linkContainer}>
-          <a href="/#compositions" className={styles.links}>Compositions</a>
+          <a href="/#compositions" className={styles.links}>Composition</a>
           <a href="/#guitarcomp" className={styles.links}>Guitar Composition</a>
-          <a href="/#arrangements" className={styles.links}>Arrangements</a>
+          <a href="/#arrangements" className={styles.links}>Arrangement</a>
           <a href="/#banjo" className={styles.links}>Banjo</a>
           <a href="/#guitar" className={styles.links}>Guitar</a>
           <a href="/#contact" className={styles.links}>Contact</a>

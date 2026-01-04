@@ -52,6 +52,12 @@ audio {
   width: 100%;
 }
 
+object {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;

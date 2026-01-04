@@ -3,13 +3,13 @@
   background-color: var(--contact);
   color: var(--banjo);
   justify-content: space-around;
-  width: 100%;
+  width: 100vw;
 }
 
 .bgPic {
   display: flex;
   max-width: 60%;
-  margin: 3rem 0 0 0;
+  margin: 3rem 0;
   max-height: 500px;
   object-fit: contain;
   border-radius: 6px;
