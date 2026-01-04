@@ -38,8 +38,16 @@
 @media screen and (max-width: 970px) {
   .container {
     width: 100%;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
   }
-  .linkContainer {
-    display: none;
+  .links {
+    font-size: 1.1rem;
+    margin: 0.2rem 0.4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.2rem;
   }
 }
