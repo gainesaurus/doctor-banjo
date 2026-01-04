@@ -26,9 +26,7 @@ export const compositions = [
       {
         title: "Expanse",
         pdfLink: "/assets/compositions/Expanse/Expanse11",
-        audioLinks: [
-          "/assets/compositions/Expanse/Expanse11.aif",
-        ],
+        audioLinks: [],
         videoLink: "",
       },
 
@@ -53,9 +51,7 @@ export const compositions = [
       {
         title: "North Country Dawn",
         pdfLink: "/assets/compositions/NorthCountry/NorthCountryDawn",
-        audioLinks: [
-          "/assets/compositions/NorthCountry/NorthCountryDawn.aiff",
-        ],
+        audioLinks: [],
         videoLink: "",
       },
 
@@ -242,6 +238,24 @@ export const banjoSongs = [
   {
     title: "Stealin",
     audioLink: "/assets/banjosongs/Stealin.mp3",
+    videoLink: "",
+  },
+];
+
+export const guitarSongs = [
+  {
+    title: "Cafe 1930",
+    audioLink: "/assets/guitarsongs/Cafe1930.mp3",
+    videoLink: "",
+  },
+  {
+    title: "Can She Excuse",
+    audioLink: "/assets/guitarsongs/CanSheExcuse.mp3",
+    videoLink: "",
+  },
+  {
+    title: "Flow My Tears",
+    audioLink: "/assets/guitarsongs/FlowMyTears.mp3",
     videoLink: "",
   },
 ]
