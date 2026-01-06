@@ -16,8 +16,12 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .container {
     flex-direction: column;
+  }
+  .bgPic {
+    width: 90%;
+    margin: 1rem 0 0 0;
   }
 }

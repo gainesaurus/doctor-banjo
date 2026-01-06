@@ -4,7 +4,7 @@ import styles from './SongLists.module.css'
 const SongLists = () => {
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='recordings'>
       {songLists.map((songList) =>
           <section id={songList.id} className={`${songList.id==='banjo' ? styles.banjoBox : styles.guitBox}`} >
             <div className={styles.titleBox}>

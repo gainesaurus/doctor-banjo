@@ -270,28 +270,3 @@ export const songLists = [
     ]
   }
 ];
-
-export const guitarSongs = [
-  {
-    sectionTitle: "The Guitar Doctor",
-    id: "guitar",
-    bgImg: "/assets/images/Rock_Star.webp",
-    samples:[
-      {
-        title: "Cafe 1930",
-        audioLink: "/assets/guitarsongs/Cafe1930.mp3",
-        videoLink: "",
-      },
-      {
-        title: "Can She Excuse",
-        audioLink: "/assets/guitarsongs/CanSheExcuse.mp3",
-        videoLink: "",
-      },
-      {
-        title: "Flow My Tears",
-        audioLink: "/assets/guitarsongs/FlowMyTears.mp3",
-        videoLink: "",
-      },
-    ]
-  }
-];
