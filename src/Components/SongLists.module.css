@@ -64,7 +64,10 @@
 }
 
 @media screen and (max-width: 900px) {
-  .container {
+  .banjoBox {
+    flex-direction: column;
+  }
+  .guitBox {
     flex-direction: column;
   }
   .bgPic {
