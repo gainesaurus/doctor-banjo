@@ -204,58 +204,94 @@ export const arrangements = [
   },
 ];
 
-export const banjoSongs = [
+export const songLists = [
   {
-    title: "Agua E Vinho",
-    audioLink: "/assets/banjosongs/AguaEVinho.mp3",
-    videoLink: "",
+    id: "banjo",
+    sectionTitle: "The Banjo Doctor",
+    bgImg: "/assets/images/Sharky 2.webp",
+    songs:[
+      {
+        title: "Agua E Vinho",
+        audioLink: "/assets/banjosongs/AguaEVinho.mp3",
+        videoLink: "",
+      },
+      {
+        title: "All I Ever Need Is You",
+        audioLink: "/assets/banjosongs/AllIEverNeedIsYou.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Childrens Song 3",
+        audioLink: "/assets/banjosongs/ChildrensSong3.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Froggy Went A Courtin",
+        audioLink: "/assets/banjosongs/FroggyWentACourtin.mp3",
+        videoLink: "",
+      },
+      {
+        title: "I'll Fly Away",
+        audioLink: "/assets/banjosongs/I'llFlyAway.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Invention No.4",
+        audioLink: "/assets/banjosongs/InventionNo4.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Stealin",
+        audioLink: "/assets/banjosongs/Stealin.mp3",
+        videoLink: "",
+      },
+    ]
   },
   {
-    title: "All I Ever Need Is You",
-    audioLink: "/assets/banjosongs/AllIEverNeedIsYou.mp3",
-    videoLink: "",
-  },
-  {
-    title: "Childrens Song 3",
-    audioLink: "/assets/banjosongs/ChildrensSong3.mp3",
-    videoLink: "",
-  },
-  {
-    title: "Froggy Went A Courtin",
-    audioLink: "/assets/banjosongs/FroggyWentACourtin.mp3",
-    videoLink: "",
-  },
-  {
-    title: "I'll Fly Away",
-    audioLink: "/assets/banjosongs/I'llFlyAway.mp3",
-    videoLink: "",
-  },
-  {
-    title: "Invention No.4",
-    audioLink: "/assets/banjosongs/InventionNo4.mp3",
-    videoLink: "",
-  },
-  {
-    title: "Stealin",
-    audioLink: "/assets/banjosongs/Stealin.mp3",
-    videoLink: "",
-  },
+    id: "guitar",
+    sectionTitle: "The Guitar Doctor",
+    bgImg: "/assets/images/Rock_Star.webp",
+    songs:[
+      {
+        title: "Cafe 1930",
+        audioLink: "/assets/guitarsongs/Cafe1930.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Can She Excuse",
+        audioLink: "/assets/guitarsongs/CanSheExcuse.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Flow My Tears",
+        audioLink: "/assets/guitarsongs/FlowMyTears.mp3",
+        videoLink: "",
+      },
+    ]
+  }
 ];
 
 export const guitarSongs = [
   {
-    title: "Cafe 1930",
-    audioLink: "/assets/guitarsongs/Cafe1930.mp3",
-    videoLink: "",
-  },
-  {
-    title: "Can She Excuse",
-    audioLink: "/assets/guitarsongs/CanSheExcuse.mp3",
-    videoLink: "",
-  },
-  {
-    title: "Flow My Tears",
-    audioLink: "/assets/guitarsongs/FlowMyTears.mp3",
-    videoLink: "",
-  },
-]
+    sectionTitle: "The Guitar Doctor",
+    id: "guitar",
+    bgImg: "/assets/images/Rock_Star.webp",
+    samples:[
+      {
+        title: "Cafe 1930",
+        audioLink: "/assets/guitarsongs/Cafe1930.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Can She Excuse",
+        audioLink: "/assets/guitarsongs/CanSheExcuse.mp3",
+        videoLink: "",
+      },
+      {
+        title: "Flow My Tears",
+        audioLink: "/assets/guitarsongs/FlowMyTears.mp3",
+        videoLink: "",
+      },
+    ]
+  }
+];

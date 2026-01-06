@@ -5,7 +5,7 @@ const Arrangements = () => {
 
   return (
     <section className={styles.container} id="arrangements">
-      <h3> Arrangements by the Doctor.</h3>
+      <h2> Arrangements by the Doctor.</h2>
       {arrangements.map(arrangement => 
         <div>
           <h3 className={styles.title}>{arrangement.title}</h3>

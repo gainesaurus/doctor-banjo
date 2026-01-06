@@ -4,7 +4,7 @@ function Navbar() {
   return (
       <header className={styles.container}>
         <a href="/#home" className={styles.links}>
-          <h2>Doctor Banjo</h2>
+          <h2 className={styles.siteName}>Doctor Banjo</h2>
         </a>
         <div className={styles.linkContainer}>
           <a href="/#compositions" className={styles.links}>Composition</a>

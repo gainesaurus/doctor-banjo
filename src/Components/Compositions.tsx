@@ -7,7 +7,7 @@ const Compositions = () => {
     <section className={styles.container} >
      {compositions.map(composition =>
         <section className={styles.list} id={composition.id}>
-          <h3 className={styles.listTitle}>{composition.listTitle}</h3>
+          <h2 className={styles.listTitle}>{composition.listTitle}</h2>
           {composition.samples.map(sample => 
             <div className={styles.compCard}>
               <h3 className={styles.compTitle}>{sample.title}</h3>

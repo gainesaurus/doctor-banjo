@@ -1,7 +1,7 @@
 .container {
   display: flex;
+  flex-direction: column;
   width: 100vw;
-  background-color: var(--nav);
   box-shadow: 1px 1px 2px black;
   margin: 0 0 1rem 0;
   color: var(--banjo);
@@ -10,12 +10,26 @@
   padding: 1rem 0 2rem 0;
 }
 
-.main {
+.banjoBox {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--nav);
+  width: 100%;
+}
+
+.guitBox {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--nav);
+  width: 100%;
+}
+
+.titleBox {
   display: flex;
   flex-direction: column;
-  width: 50%;
   justify-content: center;
   align-items: center;
+  padding: 0 0 1rem 0;
 }
 
 .title {
@@ -25,12 +39,15 @@
 
 .list {
   width: 40%;
+  justify-self: center;
+  align-self: center;
 }
 
 .audioList {
   display: flex;
   flex-direction: column;
   min-width: 100%;
+  width: 40%;
   padding: 1.2rem 1rem 0 1rem;
   justify-content: center;
   align-items: center;
@@ -39,7 +56,7 @@
 .bgPic {
   display: flex;
   width: calc(100% - 9rem);
-  min-width: 400px;
+  min-width: 300px;
   max-width: 800px;
   border-radius: 6px;
   box-shadow: 1px 1px 2px black;

@@ -6,7 +6,7 @@ const Contact = () => {
     <section className={styles.container} id="contact">
       <img src='/assets/images/Boa.webp' className={styles.bgPic} alt='Contact Page BG' />   
       <div>
-        <h3> Contact the Doctor.</h3>
+        <h2> Contact the Doctor.</h2>
       </div>     
     </section>
   )

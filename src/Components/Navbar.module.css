@@ -17,6 +17,11 @@
   box-shadow: 1px 1px 2px black;
 }
 
+.siteName {
+  display: flex;
+  margin: 0;
+}
+
 .linkContainer {
   display: flex;
   flex-direction: row;
@@ -46,7 +51,7 @@
     font-size: 1rem;
     margin: 0.2rem 0.3rem;
   }
-  h2 {
+  .siteName {
     font-size: 1.5rem;
     margin: 0.2rem;
   }
